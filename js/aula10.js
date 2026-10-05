@@ -21,11 +21,14 @@ function soma(numeroA, numeroB) {
 
 //soma(10, 15)
 
-function calcularMedia(notaA, notaB, notaC){
-    let soma = notaA + notaB + notaC
-    let media = soma/3
-    console.log("A média é " + media)
+function calcularMedia(notaA, notaB){
+    let soma = notaA + notaB
+    let media = soma/2
+    return media
 }
 
-calcularMedia(21, 25, 32)
-calcularMedia(12, 65, 22)
+let media1 = calcularMedia(53,35)
+let media2 = calcularMedia(12,48)
+
+console.log(media1)
+console.log(media2)
